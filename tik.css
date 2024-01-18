@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+    
+}
+
+main {
+    align-content: center;
+    display: contents;
+
+    height: 1920px;
+    width: 1080px;
+    overflow-y: scroll;
+    scroll-snap-type:y mandatory;
+    /* scroll-snap-type: y proximity; */
+}
+
+main > section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #7c68ee;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
+main > section:nth-child(odd) {
+    align-content: center;
+    background: #80ffd4;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 650px;
+    margin-right: 650px;
+}
+
+main > section > div {
+    font-size: 80px;
+    font-weight: 700;
+    color: #fff;
+}

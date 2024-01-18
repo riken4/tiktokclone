@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>TikTok App Clone</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="menu-bar">
+            <ul>
+                <li class="active" data-sec="home">
+                    <i class="fa-solid fa-house"></i>
+                    <span>home</span>
+                </li>
+                <li data-sec="friends">
+                    <i class="fa-solid fa-user-group"></i>
+                    <span>friends</span>
+                </li>
+                <li class="notactive">
+                    <i class="fa-solid fa-plus"></i>
+                </li>
+                <li data-sec="inbox">
+                    <i class="fa-regular fa-message"></i>
+                    <span>inbox</span>
+                </li>
+                <li data-sec="profile">
+                    <i class="fa-regular fa-user"></i>
+                    <span>profile</span>
+                </li>
+            </ul>
+        </div>
+        <main class="content">
+            <section id="home" class="box home active">
+                <video controls loop>
+                    <source src="video/video-1.mp4" type="video/mp4">
+                </video>
+                <div class="top-bar">
+                    <div class="live">
+                        <div class="inner-live">live</div>
+                    </div>
+                    <div class="following-group">
+                        <span class="following">following</span>
+                        <span class="for-you active">for you</span>
+                    </div>
+                    <div class="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+                <div class="right-bar">
+                    <ul>
+                        <li>
+                            <img src="img/profile.jpg" alt="">
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-heart"></i>
+                            <span>23.7K</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-comment-dots"></i>
+                            <span>1024</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-bookmark"></i>
+                            <span>5369</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-share"></i>
+                            <span>4359</span>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section id="friends" class="box friends">
+                <video controls loop>
+                    <source src="video/video-2.mp4" type="video/mp4">
+                </video>
+                <div class="top-bar">
+                    <div class="add">
+                        <i class="fa-solid fa-user-plus"></i>
+                    </div>
+                    <div class="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Find friends">
+                        <i class="fa-solid fa-barcode"></i>
+                    </div>
+                    <div class="info">
+                        <i class="fa-solid fa-circle-info"></i>
+                    </div>
+                </div>
+                <div class="right-bar">
+                    <ul>
+                        <li>
+                            <img src="img/profile-2.jpg" alt="">
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-heart"></i>
+                            <span>3</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-comment-dots"></i>
+                            <span>1</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-bookmark"></i>
+                            <span>2</span>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-share"></i>
+                            <span>4</span>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section id="inbox" class="box inbox">
+                <div class="header-inbox">
+                    <h2>inbox</h2>
+                    <i class="fa-regular fa-comments"></i>
+                </div>
+                <div class="live">
+                    <div class="live-profile">
+                        <div class="profile-img">
+                            <img src="img/profile-3.jpg" alt="">
+                        </div>
+                        <span>alex smith</span>
+                    </div>
+                </div>
+                <div class="data">
+                    <div class="main-inbox">
+                        <div class="msg-box">
+                            <div class="icon">
+                                <i class="fa-solid fa-user-group"></i>
+                            </div>
+                            <div class="details">
+                                <h3>New followers</h3>
+                                <p>amelia started following you</p>
+                            </div>
+                        </div>
+                        <div class="msg-box">
+                            <div class="icon">
+                                <i class="fa-solid fa-bell"></i>
+                            </div>
+                            <div class="details">
+                                <h3>Activities</h3>
+                                <p>diana, joseph, george and 3 other...</p>
+                            </div>
+                        </div>
+                        <div class="msg-box">
+                            <div class="icon">
+                                <img src="img/adam.png" alt="">
+                            </div>
+                            <div class="details">
+                                <h3>adam</h3>
+                                <p>hi, how are you?</p>
+                            </div>
+                        </div>
+                        <div class="msg-box">
+                            <div class="icon">
+                                <img src="img/profile-7.jpg" alt="">
+                            </div>
+                            <div class="details">
+                                <h3>george</h3>
+                                <p>see you man</p>
+                            </div>
+                        </div>
+                        <div class="msg-box">
+                            <div class="icon">
+                                <img src="img/profile-6.jpg" alt="">
+                            </div>
+                            <div class="details">
+                                <h3>joesph</h3>
+                                <p>How to make website using html css</p>
+                            </div>
+                        </div>
+                        <div class="msg-box">
+                            <div class="icon">
+                                <img src="img/profile-9.jpg" alt="">
+                            </div>
+                            <div class="details">
+                                <h3>smith</h3>
+                                <p>Hello man</p>
+                            </div>
+                        </div>
+                        <div class="msg-box">
+                            <div class="icon">
+                                <img src="img/profile-9.jpg" alt="">
+                            </div>
+                            <div class="details">
+                                <h3>smith</h3>
+                                <p>Hello man</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="profile" class="box profile">
+                <div class="top-header">
+                    <h3>frontend with salimi</h3>
+                    <div class="icons">
+                        <i class="fa-solid fa-shoe-prints"></i>
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+                <div class="profile-info">
+                    <div class="profile-img">
+                        <div class="inner-img">
+                            <img src="img/salimi.jpg" alt="">
+                        </div>
+                        <h3>front end with salimi</h3>
+                    </div>
+                    <ul>
+                        <li>
+                            <h5>115</h5>
+                            <span>following</span>
+                        </li>
+                        <li>
+                            <h5>3600</h5>
+                            <span>followers</span>
+                        </li>
+                        <li>
+                            <h5>9719</h5>
+                            <span>likes</span>
+                        </li>
+                    </ul>
+                    <div class="buttons">
+                        <button class="btn">Edit profile</button>
+                        <button class="btn">Add friends</button>
+                    </div>
+                    <p>For More Videos Visit My Youtube Channel<br />https://bit.ly/3GxhILc</p>
+                </div>
+                <div class="profile-videos">
+                    <ul>
+                        <li class="active"><i class="fa-solid fa-barcode"></i></li>
+                        <li><i class="fa-solid fa-lock"></i></li>
+                        <li><i class="fa-regular fa-bookmark"></i></li>
+                        <li><i class="fa-regular fa-heart"></i></li>
+                    </ul>
+                    <div class="content">
+                        <div class="videos-container">
+                            <div class="video">
+                                <video controls loop autoplay muted>
+                                    <source src="video/animated tennis ball using css.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="video">
+                                <video controls loop autoplay muted>
+                                    <source src="video/Heart Beat Animation Using Pure CSS.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="video">
+                                <video controls loop autoplay muted>
+                                    <source src="video/How To Create Youtube Logo Using CSS.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                            <div class="video">
+                                <video controls loop autoplay muted>
+                                    <source src="video/loading animation using css.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="https://kit.fontawesome.com/9e5ba2e3f5.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
